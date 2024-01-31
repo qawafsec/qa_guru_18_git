@@ -11,4 +11,9 @@ public class HelloController {
     protected void onHelloButtonClick() {
         welcomeText.setText("Welcome to JavaFX Second Application!");
     }
+
+
+    private static String getMessage () {
+        return "Hello qa.guru";
+    }
 }
