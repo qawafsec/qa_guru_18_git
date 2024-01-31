@@ -11,11 +11,13 @@ public class HelloController {
     @FXML
     protected void onHelloButtonClick() {
         System.out.println(msg);
-        welcomeText.setText("Welcome to JavaFX Second Application!");
+
+        welcomeText.setText("Welcome to JavaFX Second Application!123");
     }
 
 
     private static String getMessage () {
         return "Hello qa.guru";
+
     }
 }
