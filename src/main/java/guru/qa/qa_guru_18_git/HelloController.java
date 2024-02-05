@@ -12,12 +12,12 @@ public class HelloController {
     protected void onHelloButtonClick() {
         System.out.println(msg);
 
-        welcomeText.setText("Welcome to JavaFX Second Application!123");
+        welcomeText.setText("Welcome to JavaFX Second Application!1!!23");
     }
 
 
     private static String getMessage () {
-        return "Hello qa.guru!!!!!! Ok, let's go!";
+        return "Hello qa.guru!!!!!! Ok, let's go!!!!";
 
     }
 }
