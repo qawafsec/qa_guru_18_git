@@ -17,7 +17,7 @@ public class HelloController {
 
 
     private static String getMessage () {
-        return "Hello qa.guru!!!!!!";
+        return "Hello qa.guru!!!!!! Ok, let's go!";
 
     }
 }
